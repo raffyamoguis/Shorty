@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shorty URL Shortener</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+            <div class="container-fluid">
+            <a class="navbar-brand color-primary" href="#">Shorty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="title text-center">
+            <h1 class="color-primary"><b>Shorty</b></h1>
+            <span>Will shorten your url for you.</span>
+
+            <div id="urlbox" class="input-group mb-3 mt-4">
+                <input type="text" id="urlform" class="form-control form-control-lg" placeholder="Your URL" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" id="urlbtn" type="button" id="button-addon2">Shortit</button>
+            </div>
+
+            <div class="speech">
+                <h4 class="color-primary"><b>Simple and fast URL shortener!</b></h4>
+                <p>ShortURL allows to reduce long links from Instagram, Facebook, YouTube, Twitter, Linked In and top sites on the Internet, just paste the long URL and click the Shorten URL button. On the next screen, copy the shortened URL and share it on websites, chat and e-mail. After shortening the URL, check how many clicks it received.</p>
+            
+                <h4 class="color-primary"><b>Shorten, share and track</b></h4>
+                <p>Your shortened URLs can be used in publications, documents, advertisements, blogs, forums, instant messages, and other locations. Track statistics for your business and projects by monitoring the number of hits from your URL with the click counter, you do not have to register.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md">
+                    <div class="card-body">
+                        <h1 class="card-title color-primary"><i class="bi bi-hand-thumbs-up"></i></h1>
+                        <h5 class="card-title"><b>Easy</b></h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    
+                    <div class="card-body">
+                        <h1 class="card-title color-primary"><i class="bi bi-file-break"></i></h1>
+                        <h5 class="card-title"><b>Shortened</b></h5>
+                        <p class="card-text">Use any link, no matter what size, ShortURL always shortens</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    
+                    <div class="card-body">
+                        <h1 class="card-title color-primary"><i class="bi bi-lock"></i></h1>
+                        <h5 class="card-title"><b>Secure</b></h5>
+                        <p class="card-text">It is fast and secure, our service have HTTPS protocol and data encryption</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md">
+                    <div class="card-body">
+                        <h1 class="card-title color-primary"><i class="bi bi-percent"></i></h1>
+                        <h5 class="card-title"><b>Statistics</b></h5>
+                        <p class="card-text">Check the amount of clicks that your shortened url received</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    
+                    <div class="card-body">
+                        <h1 class="card-title color-primary"><i class="bi bi-hdd-rack"></i></h1>
+                        <h5 class="card-title"><b>Reliable</b></h5>
+                        <p class="card-text">All links that try to disseminate spam, viruses and malware are deleted</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    
+                    <div class="card-body">
+                        <h1 class="card-title color-primary"><i class="bi bi-phone"></i></h1>
+                        <h5 class="card-title"><b>Devices</b></h5>
+                        <p class="card-text">Compatible with smartphones, tablets and desktop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <p>© 2021 Shorty - Tool to shorten a long link.</p>
+        <div class="row footer-links">
+            <div class="col-md"><a href="">Shorty</a></div>
+            <div class="col-md"><a href="">Url Click Counter</a></div>
+            <div class="col-md"><a href="">Report URL</a></div>
+            <div class="col-md"><a href="">Terms of Service</a></div>
+            <div class="col-md"><a href="">Privacy</a></div>
+            <div class="col-md"><a href="">Contact</a></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
